@@ -126,6 +126,20 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+body {
+  display: flex;
+  justify-content: center;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 20px 20px 20px;
+  font-size: 26px;
+  font-style: italic;
+  color: #6578b3;
+  background-color: rgba(119, 183, 212, 0.74);
+  border: rgba(210, 214, 174, 0.842) 2px;
+  border-radius: 10px;
+}
 div nav {
   display: flex;
   justify-content: center;
