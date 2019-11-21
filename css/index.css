@@ -208,30 +208,34 @@ p {
   margin-top: -2.1%;
   margin-bottom: 4%;
 }
-@media ( max-width:500px ) {
-  width: 100%;
+@media (max-width:500px ){
   .nav a {
     display: flex;
     justify-content: center;
-    font-size: 10px;
+    font-size: 15px;
     flex-direction: space-between;
   }
   body div p {
     display: flex;
     justify-content: center;
   }
-  .btn .btn2 {
+  .btn {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: row;
     align-content: center;
+    margin-left: 5%;
+  }
+
+  .btn2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    margin-top:-6%;
   }
 }
-div .about-team p{
-  display: flex;
-  justify-content: center;
-  padding-top: 3%;
-}
+
 .About-content {
   display: flex;
   justify-content: center;
