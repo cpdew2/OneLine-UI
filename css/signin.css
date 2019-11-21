@@ -1,16 +1,20 @@
-div nav {
+.navigation {
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 800px;
     width: 100%;
     margin: 0 auto;
-    padding-bottom: 20px;
-    font-size: 26px;
+    padding-bottom: 30px;
+    font-size: 36px;
     font-style: italic;
     color: #6578b3;
     background-color: rgba(119, 183, 212, 0.74);
     border: rgba(210, 214, 174, 0.842);
-    border-radius: 10px;
+    
     justify-content: space-evenly;
   }
+
+.container {
+  background-color:rgba(119, 183, 212, 0.74) ;
+}
