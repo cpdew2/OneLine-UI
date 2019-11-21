@@ -6,6 +6,8 @@
 nav a {
     color:@nav-font; 
 }
+
+
 h2{
     display: flex;
     justify-content: center;
@@ -53,5 +55,36 @@ p{
     margin-bottom: 4%;
 }
 
+@media @mobile{
+    width:100%;
+    div nav a{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 20px 20px 20px;
+        font-size: xx-small;
+        font-style: italic;
+        color: #6578b3;
+        background-color: rgba(119, 183, 212, 0.74);
+        border: rgba(210, 214, 174, 0.842);
+        border-radius: 10px;
+        justify-content: space-evenly;
+      }
+    
+    body div p {
+        display: flex;
+        justify-content: center;
 
+    }
+    .btn .btn2{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
 
+        }
+    }
+    
